@@ -30,7 +30,7 @@ scanf("%" SCNu8, &dado2);
 return 0;
 }
 
-/*IMPORTANTE: No C, o mostrador "%zu" é usado para mostrar o tamanho do dado em bytes
-e o "%p" é mostrador usado para endereços de memória. Já o "%" SCNu8 pode ser usado para
-imprimir para escanear(fazer input) de dados tamanho exato, enquanto o "%" PRId8 pode 
+/*IMPORTANTE: No C, o mostrador "%zu" é usado para mostrar o tamanho do dado em bytes(conteúdo do sizeof();)
+e o "%p" é o mostrador usado para endereços de memória. Já o "%" SCNu8 pode ser usado para
+para escanear(fazer input) de dados de tamanho exato, enquanto o "%" PRId8 pode 
 ser usado pra imprimir dados de tamanho exato.*/

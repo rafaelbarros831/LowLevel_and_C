@@ -1,2 +1,4 @@
 # LowLevel_and_C
-Usando C e arduino para aprender programação em baixo nível.
+> Usando C e arduino para aprender programação em baixo nível.
+> 
+Quando falamos em baixo nível, logo pensamos em Assembly, mas depois dele as liguagens mais próximas da máquina são C e C++, que inclusive são as liguagens usadas para escrever aplicações de baixo nível em jogos e sistemas operacionais hoje em dia. Sem as aplicações de mais baixo nível, as de alto nível não se sustentam, o que torna o baixo nível o pilar da computação. Em computadores modernos com sistemas operacionais, o acesso direto ao hardware fica totalmente barrado para o programador, por isso uma boa forma de começar o baixo nível é escrevendo para arquiteturas como a **AVR** do *Arduino* já que o mesmo não possui sistema operacional. Mas para entender os registradores do **Atmega328p**, é necessário programar sem auxílio de IDEs de alto nível e abstrações de bibliotecas e isso vale para qualquer arquitetura.  
